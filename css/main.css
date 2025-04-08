@@ -68,7 +68,7 @@ header {
 .header_box .container h1 a {
     display: block;width: 12.3rem;height: 6.2rem;
     background-size: 100% auto;background-position: center;
-    background: url(../img/icon/vertexlogo.png)no-repeat;
+    background: url(../img/icon/vertexlogo.png) no-repeat;
 }
 .header_box .container .gnb {
     display: flex;flex-direction: row;
@@ -236,7 +236,7 @@ header {
 }
 
 .main_swiper .main_text .btn_wrap::after {
-    content: url(img/icon/arrowright.png);filter: invert(100%);
+    content: url(../img/icon/arrowright.png);filter: invert(100%);
     margin: 0;padding: 0;
 }
 
@@ -268,7 +268,7 @@ header {
     width: 23%;
 }
 .menu_Background {
-    width: 35.7rem;height: 35.7rem;
+    height: 35.7rem;
     position: relative;
     background: #000;
     margin-bottom: 2.0rem;

@@ -51,6 +51,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+/* menu */
+const menuSwiper = new Swiper('.menu_swiper', {
+  autoplay: true,
+  slidesPerView: 4,
+  spaceBetween: 20,
+}) 
 
 /* media */
 const mediaSwiper = new Swiper('.media_swiper', {
