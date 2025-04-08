@@ -41,6 +41,12 @@ h2 {font-size: 3.2rem;font-weight: 700;}
 section {
     padding: 8rem 0;
 }
+@media screen and (max-width: 1280px) {
+    html {font-size: 9px;}
+}
+@media screen and (max-width: 767px) {
+    html {font-size: 8px;}
+}
 
 /*********** header *************/
 header {
@@ -61,6 +67,7 @@ header {
 }
 .header_box .container h1 a {
     display: block;width: 12.3rem;height: 6.2rem;
+    background-size: 100% auto;background-position: center;
     background: url(/img/icon/vertexlogo.png)no-repeat;
 }
 .header_box .container .gnb {
@@ -95,6 +102,29 @@ header {
 }
 .header_btn button {
     display: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .header_box .container h1 a {
+        background-size: contain;
+    }
+    .header_box .container .gnb {gap: 7rem;}
+}
+
+@media screen and (max-width: 1024px) {
+    .header_box .container .gnb {
+        gap: 8rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header_box .container {padding: 0 1.8rem;}
+    .header_box nav {display: none;}
+    .header_btn .btn_wrap {display: none;}
+    .header_btn .mobile_menu_btn {display: block;font-size: 2.8rem;}
+} 
+
+@media screen and (max-width: 480px) {
 }
 /*** right_scroll_box **********************/
 .right_scroll_box {
